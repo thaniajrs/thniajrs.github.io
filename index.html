@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFC INDONESIA</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+.navlogo {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+.navmenu {
+  float: left;
+  width: 70%;
+  padding: 18.5px;
+}
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 80px;
+}
+
+.navli {
+  float: left;
+}
+
+.navli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover {
+  color: yellow;
+}
+
+.navli a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navli a:hover, .navli:hover .dropbtn {
+  color: yellow;
+}
+.navli {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b50924;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navli:hover .dropdown-content {
+  display: block;
+}
+/* * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+ */
+
+.promo {
+  float: left;
+  width: 100%;
+  padding: 50px;
+}
+div.gallery {
+  margin: 15px;
+  float: left;
+  width: 300px;
+  justify-content: center;
+}
+
+div.gallery:hover {
+  border: 3px solid #b50924;
+}
+
+div.gallery img {
+  width: 295px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.form {
+  float: left;
+  width: 100%;
+  padding: 100px;
+  margin-bottom: 30px;
+}
+.foter {
+  float: left;
+  width: 100%;
+  padding: 50px;
+}
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+        <div class="navlogo" style="background-color:#b50924">
+        <img src="logo-cfc.png" width="150px" style="float: right;" alt="">
+        </div>
+        <div class="navmenu" style="background-color:#b50924">
+       
+            <ul  class="navul">
+                <li class="navli"><a href="index.html">BERANDA</a></li>
+                
+                <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">MENU</a>
+                    <div class="dropdown-content">
+                      <a href="#">Astaga</a>
+                      <a href="#">Family</a>
+                      <a href="#">Sensasi</a>
+                      <a href="#">Sides</a>
+                      <a href="#">Drinks</a>
+                    </div>
+                  </li>
+                  <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">LAYANAN</a>
+                    <div class="dropdown-content">
+                      <a href="#">Katering</a>
+                      <a href="#">Pesta Ulang Tahun</a>
+                    </div>
+                  </li>
+                  <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">PROMO</a>
+                    <div class="dropdown-content">
+                      <a href="#">Product Terbaru</a>
+                      <a href="#">CFC Club</a>
+                      <a href="#">Promo Anak</a>
+                      <a href="#">Lain-Lain</a>
+                    </div>
+                  </li>
+                  <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">TENTANG</a>
+                    <div class="dropdown-content">
+                      <a href="#">Profil</a>
+                      <a href="#">Visi & Misi</a>
+                      <a href="#">Struktur Organisasi</a>
+                      <a href="#">Berita & Acara</a>
+                      <a href="#">Komisaris & Direksi</a>
+                      <a href="#">Laporan Keuangan</a>
+                      <a href="#">Iktisar Tata Kelola</a>
+                      <a href="#">Profesi & Lembaga</a>
+                      <a href="#">Penunjang</a>
+                      <a href="#">Informasi Pemegang</a>
+                      <a href="#">Saham</a>
+                    </div>
+                  </li>
+                  <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">HUBUNGI</a>
+                    <div class="dropdown-content">
+                      <a href="#">Hubungi Kami</a>
+                      <a href="#">Waralaba</a>
+                      <a href="#">Karir</a>
+                    </div>
+                  </li>
+                  <li class="navli"><a href="">LOKASI</a></li>
+                  <li class="navli"><a href="#contact"><img src="download.png" width="20px" alt=""></a></li>
+                  <li class="navli"><a href="#contact"><img src="download (1).png" width="20px" alt=""></a></li>
+                  <li class="navli">
+                    <a href="javascript:void(0)" class="dropbtn">PAGE</a>
+                    <div class="dropdown-content">
+                        <a href="https://unai.edu/">UNAI</a>
+                        <a href="https://fti.unai.edu/">FTI UNAI</a>
+                      <a href="biodata.html">BIODATA</a>
+                      <a href="contactus.html">CONTACUS US</a>
+                    </div>
+                  </li>
+              </ul>
+
+        </div>
+      </div>
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="357-Ayam-HAME-BANNER-.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="BUY-3-GET-3-FREE-CS-HOME-BANNER-.jpg" style="width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="PROMO-BOKS-home-banner.jpg" style="width:100%">
+    
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <div>
+    <h2 style="color: #b50924; text-align: center;">PROMO TERBARU</h2>
+  </div>
+  <div class="clearfix">
+    <div class="promo">
+        <div class="boxx" style="margin-left: 500px; ">
+        <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="CATERING THUMBNAIL FULL1.jpg" >
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="ULANG-TAHUN-THUMNAIL-FULL.jpg" >
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+          <div class="gallery">
+            <a target="_blank" href="img_lights.jpg">
+              <img src="BeefBurger THUMNAIL FULL new.jpg" >
+            </a>
+            <div class="desc">Add a description of the image here</div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="clearfix">
+    <div class="form" style="background-image: url(banner-form.jpg); background-size: 100%; max-width: 100%;">
+    <div style="float: right; margin-right: 150px;">
+        <form action="">
+            <input type="text" name="" id="" placeholder="Masukkan Nama Lengkap" style="width: 500px; height:40px; margin-bottom: 5px;"><br>
+            <input type="text" name="" id="" placeholder="Masukkan Alamat E-Mail" style="width: 500px; height:40px; margin-bottom: 5px;"><br>
+            <input type="text" name="" id="" placeholder="Masukkan Nomor Telepon" style="width: 500px; height:40px; margin-bottom: 5px;"><br>
+            <button type="submit" style="width: 100px; height: 50px; border-radius: 40px; background-color: #b50924; color: white;">Kirim</button>
+        </form>
+    </div>
+    </div>
+  </div>
+  <div class="clearfix">
+    <div class="foter" style="background-color: #b50924;">
+        <div style="float: left; margin-left: 820px; color: white;">
+            <img src="fb-icon-11.png" width="40px" alt="">
+            <img src="pngtree-instagram-icon-instagram-logo-png-image_3584852.png" width="40px" alt="">
+            <img src="whatsapp-png-logo-1.png" width="40px" alt="">
+            <img src="LINE_logo.svg.png" width="40px" alt=""><br>
+            
+        </div><br>
+        <div style="text-align: center; padding-top: 50px; color: white;">
+            <p >Copyright © 2022 PT. Pioneerindo Gourmet International, Tbk.</p>
+        </div>
+        </div>
+           
+       
+        </div>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+</body>
+</html>
